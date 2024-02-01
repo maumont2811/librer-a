@@ -40,6 +40,7 @@ while True:
         mi_libreria.agregar_libro(nuevo_libro)
     elif opcion == "2":
         mi_libreria.mostrar_libros()
+        input("Presiona Enter para volver al menu ")
     elif opcion == "3":
         libro_a_eliminar = input("Ingresar el nombre del libro a eliminar: ")
         mi_libreria.eliminar_libro(libro_a_eliminar)
